@@ -1,0 +1,30 @@
+# secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# python
+__pycache__/
+*.pyc
+.venv/
+.pytest_cache/
+.ruff_cache/
+dist/
+*.egg-info/
+
+# local market data
+data/
+*.duckdb
+*.parquet
+
+# notebooks
+.ipynb_checkpoints/
+
+# local-only project files
+CLAUDE.md
+CLAUDE.local.md
+.claude/
+SPEC.md
+instructions.md
