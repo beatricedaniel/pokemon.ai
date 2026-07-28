@@ -13,9 +13,9 @@ dependencies = [
 [dependency-groups]
 dev = [
     "pytest>=8",
-    "ruff>=0.9",
+    "ruff>=0.16.0",
     "pyright>=1.1.390",
-    "pre-commit>=4",
+    "pre-commit>=4.6.1",
     "pip-audit>=2.7",
 ]
 
